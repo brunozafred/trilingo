@@ -6,7 +6,8 @@ var __filename = fileURLToPath(import.meta.url);
 var __dirname = path.dirname(__filename);
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: "./",
+    // Ajustado para o nome do seu repositório no GitHub
+    base: '/trilingo/',
     plugins: [react()],
     resolve: {
         alias: {
