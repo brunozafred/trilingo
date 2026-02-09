@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename)
 // https://vitejs.dev/config/
 export default defineConfig({
   // Ajustado para o nome do seu repositório no GitHub
-  base: '/trilingo/', 
+  base: '/', 
   plugins: [react()],
   resolve: {
     alias: {
